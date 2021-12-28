@@ -1,4 +1,4 @@
-package Persona.application.infrastructure.controllers;
+package Persona.application.controllers;
 
 import Persona.application.Port.GetPersonPort;
 import Persona.application.domain.Person;

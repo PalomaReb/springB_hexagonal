@@ -1,4 +1,4 @@
-package Persona.application.infrastructure.controllers;
+package Persona.application.controllers;
 
 import Persona.application.Port.DeletePersonPort;
 import org.springframework.beans.factory.annotation.Autowired;

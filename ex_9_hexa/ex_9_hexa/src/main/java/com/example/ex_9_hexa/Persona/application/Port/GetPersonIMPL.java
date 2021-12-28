@@ -1,7 +1,7 @@
-package Persona.application.Port;
+package com.example.ex_9_hexa.Persona.application.Port;
 
-import Persona.application.domain.Person;
-import Persona.application.domain.PersonRepoJPA;
+import com.example.ex_9_hexa.Persona.application.domain.Person;
+import com.example.ex_9_hexa.Persona.application.domain.PersonRepoJPA;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;

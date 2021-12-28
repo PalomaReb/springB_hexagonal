@@ -1,9 +1,9 @@
-package Persona.application.controllers;
+package com.example.ex_9_hexa.Persona.application.controllers;
 
 
-import Persona.application.Port.AddPersonPort;
-import Persona.application.infrastructure.dto.input.PersonaDTOInput;
-import Persona.application.infrastructure.dto.output.PersonaDTOOutput;
+import com.example.ex_9_hexa.Persona.application.Port.AddPersonPort;
+import com.example.ex_9_hexa.Persona.application.infrastructure.dto.input.PersonaDTOInput;
+import com.example.ex_9_hexa.Persona.application.infrastructure.dto.output.PersonaDTOOutput;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

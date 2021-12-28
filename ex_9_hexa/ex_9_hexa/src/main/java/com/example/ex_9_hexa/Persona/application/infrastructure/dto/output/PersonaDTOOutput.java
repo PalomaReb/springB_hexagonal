@@ -1,7 +1,7 @@
-package Persona.application.infrastructure.dto.output;
+package com.example.ex_9_hexa.Persona.application.infrastructure.dto.output;
 
 
-import Persona.application.domain.Person;
+import com.example.ex_9_hexa.Persona.application.domain.Person;
 import lombok.Data;
 import org.springframework.stereotype.Component;
 

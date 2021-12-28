@@ -1,7 +1,7 @@
-package Persona.application.controllers;
+package com.example.ex_9_hexa.Persona.application.controllers;
 
-import Persona.application.Port.GetPersonPort;
-import Persona.application.domain.Person;
+import com.example.ex_9_hexa.Persona.application.Port.GetPersonPort;
+import com.example.ex_9_hexa.Persona.application.domain.Person;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

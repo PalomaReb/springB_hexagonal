@@ -1,8 +1,8 @@
-package Persona.application.Port;
+package com.example.ex_9_hexa.Persona.application.Port;
 
-import Persona.application.domain.PersonRepoJPA;
-import Persona.application.infrastructure.dto.input.PersonaDTOInput;
-import Persona.application.infrastructure.dto.output.PersonaDTOOutput;
+import com.example.ex_9_hexa.Persona.application.domain.PersonRepoJPA;
+import com.example.ex_9_hexa.Persona.application.infrastructure.dto.input.PersonaDTOInput;
+import com.example.ex_9_hexa.Persona.application.infrastructure.dto.output.PersonaDTOOutput;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

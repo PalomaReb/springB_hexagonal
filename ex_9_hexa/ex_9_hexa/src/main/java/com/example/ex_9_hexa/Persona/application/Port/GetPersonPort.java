@@ -1,6 +1,6 @@
-package Persona.application.Port;
+package com.example.ex_9_hexa.Persona.application.Port;
 
-import Persona.application.domain.Person;
+import com.example.ex_9_hexa.Persona.application.domain.Person;
 
 import java.util.List;
 

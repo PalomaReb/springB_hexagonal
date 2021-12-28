@@ -16,7 +16,8 @@ public class POSTcontroller {
     AddPersonPort addPersonPort;
 
 @PostMapping ("/addPerson")
-    public PersonaDTOOutput addNewPersona (@RequestBody PersonaDTOInput person) throws  Exception {
+    public PersonaDTOOutput addNewPerson(@RequestBody PersonaDTOInput person) throws  Exception {
+    System.out.println("post controller hola");
    return addPersonPort.addPerson(person);
 }
 }

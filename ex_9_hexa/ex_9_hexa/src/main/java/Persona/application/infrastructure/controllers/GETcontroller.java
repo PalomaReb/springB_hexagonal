@@ -16,6 +16,7 @@ public class GETcontroller {
 
     @GetMapping("/id/{id}")
     public GetPersonPort getPersonById(@PathVariable int id) throws Exception{
+
         return (GetPersonPort) getPersonPort.getPersonById(id);
     }
 
@@ -26,6 +27,7 @@ public class GETcontroller {
 
     @GetMapping("/person")
     public List<Person> getAllPerson() throws Exception {
+        System.out.println("entro por aqui");
         return getPersonPort.getAllPerson();
     }
 
